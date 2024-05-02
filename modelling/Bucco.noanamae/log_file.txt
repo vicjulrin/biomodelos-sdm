@@ -1,0 +1,70 @@
+2024-04-30 14:15:17.086826
+Species name: Bucco.noanamae
+Number of raw occurrences 20
+Experimental type:
+
+Method for unique records sqkm
+Distance used for unique records 10 km
+
+Accesible area constructed with:points_MCP_buffer
+Movement distance vector (buffer depends on this vector): 74 km
+
+Projections
+Projecting models from M-M
+Projecting to future FALSE
+CRS projecting +proj=longlat +datum=WGS84 +no_defs +type=crs
+
+Climatic variables: worldclim
+G extent path
+Computing G Variables FALSE
+Computing F Variables FALSE
+
+Bias layer used FALSE
+Path of bias layerbias_layer/aves_set16.tif
+
+Maxent detailed
+Maxent beta multiplier occurrences small sample 1,1.5,2
+Maxent beta multiplier occurrences large sample 1,2,3,4,5,6
+Maxent feature classes occurrences small sample l,q,lq
+Maxent feature classes occurrences large sample l,q,lq,lp,lqp,qp
+Maxent prediction settings no_ext
+
+Selection Method proc,daic,or
+
+Final data
+Store files essential
+#############################################################################
+
+Handling occurrences
+Number of not duplicated occurrences: 20
+
+Unique occurrences to 10km, using  sqkm
+Unique occurrences: ok.
+Number of unique occurrences: 9
+
+Accesible area: ok. 
+
+Processing environmental layers: ok.
+Path of climatic variables used example/Data/env_vars/
+Path of other variables used example/Data/env_vars/other/
+Variables used wc2.1_10m_bio_1_s,wc2.1_10m_bio_12_s,elev
+Completed in  0 hours 0 mins
+
+Bias file NOT developed 
+
+Completed in  0 hours 0 mins
+
+
+Path Maxent, number occ less than 20 
+Small samples Maxent modelling fail.
+Error R: argument "sbg.file" is missing, with no default
+Completed in  0 hours 0 mins
+
+
+Ensemblig: fail.
+Error R: object 'calibrate_model' not found
+Completed in  0 hours 0 mins
+
+erase_files: essential
+Completed in  0 hours 0 mins
+
